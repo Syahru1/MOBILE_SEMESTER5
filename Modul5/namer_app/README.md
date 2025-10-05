@@ -1,16 +1,42 @@
+Nama    : Muhammad Syahrul Gunawan
+
+Kelas   : TI 3D
+
+NIM     : 2341720002
+
 # namer_app
 
-A new Flutter project.
+3. Membuat project
+![Screenshot hello world](images/01.PNG)
 
-## Getting Started
+4. Menambahkan tombol
+![Screenshot hello world](images/02.PNG)
+![Screenshot hello world](images/03.PNG)
+![Screenshot hello world](images/04.PNG)
 
-This project is a starting point for a Flutter application.
+5. Memperindah tampilan aplikasi
+![Screenshot hello world](images/05.PNG)
+![Screenshot hello world](images/06.PNG)
+![Screenshot hello world](images/07.PNG)
+![Screenshot hello world](images/08.PNG)
+![Screenshot hello world](images/09.PNG)
+![Screenshot hello world](images/10.PNG)
+![Screenshot hello world](images/11.PNG)
+![Screenshot hello world](images/12.PNG)
+![Screenshot hello world](images/13.PNG)
 
-A few resources to get you started if this is your first Flutter project:
+6. Menambahkan fungsi
+![Screenshot hello world](images/14.PNG)
+![Screenshot hello world](images/15.PNG)
+![Screenshot hello world](images/16.PNG)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+7. Menambahkan kolom samping navigasi
+![Screenshot hello world](images/17.PNG)
+![Screenshot hello world](images/18.PNG)
+![Screenshot hello world](images/19.PNG)
+![Screenshot hello world](images/19_2.PNG)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+8. Menambah halaman baru
+![Screenshot hello world](images/20.PNG)
+![Screenshot hello world](images/21.PNG)
+![Screenshot hello world](images/21_2.PNG)
