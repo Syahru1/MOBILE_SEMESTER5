@@ -8,26 +8,26 @@ NIM     : 2341720002
 
 Praktikum Menerapkan Plugin di Project Flutter
 
-Langkah 1:
+Langkah 1: Buat Project Baru
 ![Screenshot hello world](assets/images/01.PNG)
 
-Langkah 2:
+Langkah 2: Menambahkan Plugin
 ![Screenshot hello world](assets/images/02.PNG)
 
-Langkah 3:
+Langkah 3: Buat file red_text_widget.dart
 ![Screenshot hello world](assets/images/03.PNG)
 
-Langkah 4:
+Langkah 4: Tambah Widget AutoSizeText
 ![Screenshot hello world](assets/images/04.PNG)
 
 Jawab:
 
 Error terjadi karena AutoSizeText tidak dikenali. AutoSizeText berasal dari package eksternal. Jika package tidak ditambahkan di pubspec.taml, program akan tetap error. Selain itu text juga tidak pernah didefinisikan atau dikirim melalui constructor. 
 
-Langkah 5:
+Langkah 5: Buat Variabel text dan parameter di constructor
 ![Screenshot hello world](assets/images/05.PNG)
 
-Langkah 6:
+Langkah 6: Tambahkan widget di main.dart
 ![Screenshot hello world](assets/images/06.PNG)
 
 
