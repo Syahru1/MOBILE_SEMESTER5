@@ -50,3 +50,9 @@ Tampilan awal
 ![Screenshot hello world](images/09.PNG)
 Tampilan setelah diklik (pilih tanggal)
 ![Screenshot hello world](images/09_2.PNG)
+
+
+Tugas Praktikum
+
+3. Pada praktikum 5 mulai dari Langkah 3 sampai 6, buatlah file widget tersendiri di folder basic_widgets, kemudian pada file main.dart cukup melakukan import widget sesuai masing-masing langkah tersebut!
+![Screenshot hello world](images/11.PNG)
