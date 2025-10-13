@@ -25,5 +25,9 @@ Material apps
 ![Screenshot hello world](assets/images/02_2.PNG)
 Cupertino apps
 ![Screenshot hello world](assets/images/02_3.PNG)
-
-
+Card
+![Screenshot hello world](assets/images/04.PNG)
+List
+![Screenshot hello world](assets/images/05.PNG)
+Percobaan Projet
+![Screenshot hello world](assets/images/03.PNG)
