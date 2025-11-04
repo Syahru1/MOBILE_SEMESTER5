@@ -1,16 +1,28 @@
+Nama    : Muhammad Syahrul Gunawan
+
+Kelas   : TI 3D
+
+NIM     : 2341720002
+
 # photo_filter_carousel
 
-A new Flutter project.
+Praktikum 2: Membuat photo filter carousel
 
-## Getting Started
+Langkah 1: Buat Project Baru
+![Screenshot hello world](assets/images/01.JPG)
 
-This project is a starting point for a Flutter application.
+Langkah 2: Buat widget Selector ring dan dark gradient
+![Screenshot hello world](assets/images/02.JPG)
 
-A few resources to get you started if this is your first Flutter project:
+Langkah 3: Buat widget photo filter carousel
+![Screenshot hello world](assets/images/03.JPG)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Langkah 4: Membuat filter warna - bagian 1
+![Screenshot hello world](assets/images/04.JPG)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Langkah 5: Membuat filter warna
+![Screenshot hello world](assets/images/05.JPG)
+
+Langkah 6: Implementasi filter carousel
+![Screenshot hello world](assets/images/06.JPG)
+![Screenshot hello world](assets/images/07.JPG)
