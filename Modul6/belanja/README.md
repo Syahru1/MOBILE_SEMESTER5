@@ -36,10 +36,21 @@ Setelah diklik
 
 Tugas Praktikum 2
 
-1 & 2:
+1&2
 
 Sebelum diklik
 ![Screenshot hello world](assets/images/07.PNG)
 Setelah diklik
 ![Screenshot hello world](assets/images/07_2.PNG)
 
+3
+
+![Screenshot hello world](assets/images/08.PNG)
+
+4
+
+
+5
+
+
+6
