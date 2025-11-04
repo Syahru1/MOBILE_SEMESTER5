@@ -11,6 +11,7 @@ Tugas Praktikum
 3. Jelaskan maksud void async pada praktikum 1?
 
     Jawab:
+
     Di Flutter/Dart, kata kunci async digunakan pada fungsi untuk menandakan bahwa fungsi tersebut asynchronous, yaitu bisa melakukan operasi yang membutuhkan waktu (misal: mengambil foto, membaca filr, mengakses jaringan) tanpa memblokir eksekusi kode lainnya. void async adalah fungsi yang tidak mengembalikan nilai (void) tapi bekerja secara asynchronous, biasanya karena membutuhkan operasi yang memakan waktu.
 
     Contohnya di Praktikum 1 (TakePictureScreen):
@@ -21,6 +22,7 @@ Tugas Praktikum
 4. Jelaskan fungsi dari anotasi @immutable dan @override?
 
     Jawab:
+    
     @immutable adalah anotasi yang biasanya ditempatkan pada kelas widget di Flutter. Maksudnya:
     - Semua field di dalam kelas harus final -->  nilainya tidak boleh berubah setelah objek dibuat.
     - Memberikan jaminan keamanan state --> widget ini - bersifat immutable, sehingga lebih mudah diprediksi dan optimal untuk rebuild di Flutter.
