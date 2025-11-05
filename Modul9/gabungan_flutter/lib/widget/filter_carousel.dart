@@ -1,9 +1,15 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'filter_selector.dart';
 
 @immutable
 class PhotoFilterCarousel extends StatefulWidget {
-  const PhotoFilterCarousel({super.key});
+  final File imageFile;
+
+  const PhotoFilterCarousel({
+    super.key,
+    required this.imageFile,
+  });
 
   @override
   State<PhotoFilterCarousel> createState() => _PhotoFilterCarouselState();
@@ -48,9 +54,8 @@ class _PhotoFilterCarouselState extends State<PhotoFilterCarousel> {
     return ValueListenableBuilder(
       valueListenable: _filterColor,
       builder: (context, color, child) {
-        // Anda bisa ganti dengan foto Anda sendiri
-        return Image.network(
-           'assets/images/Syahrul.jpeg',
+        return Image.file(
+          widget.imageFile,
           color: color.withOpacity(0.5),
           colorBlendMode: BlendMode.color,
           fit: BoxFit.cover,
@@ -59,10 +64,11 @@ class _PhotoFilterCarouselState extends State<PhotoFilterCarousel> {
     );
   }
 
-  Widget _buildFilterSelector() {
+    Widget _buildFilterSelector() {
     return FilterSelector(
       onFilterChanged: _onFilterChanged,
       filters: _filters,
+      previewImage: widget.imageFile, 
     );
   }
 }

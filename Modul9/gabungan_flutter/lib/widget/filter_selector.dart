@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'carousel_flowdelegate.dart';
 import 'filter_item.dart';
@@ -9,11 +10,13 @@ class FilterSelector extends StatefulWidget {
     super.key,
     required this.filters,
     required this.onFilterChanged,
+    required this.previewImage,
     this.padding = const EdgeInsets.symmetric(vertical: 24),
   });
 
   final List<Color> filters;
   final void Function(Color selectedColor) onFilterChanged;
+  final File previewImage;
   final EdgeInsets padding;
 
   @override
@@ -131,6 +134,7 @@ class _FilterSelectorState extends State<FilterSelector> {
             FilterItem(
               onFilterSelected: () => _onFilterTapped(i),
               color: itemColor(i),
+              previewImage: widget.previewImage,
             ),
         ],
       ),

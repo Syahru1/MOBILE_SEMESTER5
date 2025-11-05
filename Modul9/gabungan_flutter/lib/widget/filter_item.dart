@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 
 @immutable
@@ -5,10 +6,12 @@ class FilterItem extends StatelessWidget {
   const FilterItem({
     super.key,
     required this.color,
+    required this.previewImage,
     this.onFilterSelected,
   });
 
   final Color color;
+  final File previewImage;
   final VoidCallback? onFilterSelected;
 
   @override
@@ -20,10 +23,11 @@ class FilterItem extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(8),
           child: ClipOval(
-            child: Image.network(
-               'assets/images/Syahrul.jpeg',
+            child: Image.file(
+              previewImage,
               color: color.withOpacity(0.5),
               colorBlendMode: BlendMode.hardLight,
+              fit: BoxFit.cover,
             ),
           ),
         ),
