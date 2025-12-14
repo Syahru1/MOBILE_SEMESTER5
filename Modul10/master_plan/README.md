@@ -4,9 +4,9 @@ Kelas   : TI 3D
 
 NIM     : 2341720002
 
-# master_plan
+## master_plan
 
-Praktikum 1: Dasar State dengan Model-View
+# Praktikum 1: Dasar State dengan Model-View
 
 Langkah 1: Buat Project Baru
 ![Screenshot](assets/images/P1_01.png)
@@ -185,3 +185,81 @@ Hasilnya:
 - Tidak bergantung pada setState()
 
 5. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke dosen yang telah disepakati !
+
+Praktikum 3: Membuat State di Multiple Screens
+
+Langkah 1: Edit PlanProvider
+![Screenshot](assets/images/P3_01.png)
+
+Langkah 2: Edit main.dart
+![Screenshot](assets/images/P3_02.png)
+
+Langkah 3: Edit plan_screen.dart
+![Screenshot](assets/images/P3_03.png)
+
+Langkah 4: Error
+![Screenshot](assets/images/P3_04.png)
+
+Langkah 5: Tambah getter Plan
+![Screenshot](assets/images/P3_05.png)
+
+Langkah 6: Method initState()
+![Screenshot](assets/images/P3_06.png)
+
+Langkah 7: Widget build
+![Screenshot](assets/images/P3_07.png)
+
+Langkah 8: Edit _buildTaskTile
+![Screenshot](assets/images/P3_08.png)
+
+Langkah 9: Buat screen baru
+![Screenshot](assets/images/P3_09.png)
+![Screenshot](assets/images/P3_09_02.png)
+
+Langkah 10: Pindah ke class _PlanCreatorScreenState
+![Screenshot](assets/images/P3_10.png)
+
+Langkah 11: Pindah ke method build
+![Screenshot](assets/images/P3_11.png)
+
+Langkah 12: Buat widget _buildListCreator
+![Screenshot](assets/images/P3_12.png)
+
+Langkah 13: Buat void addPlan()
+![Screenshot](assets/images/P3_13.png)
+
+Langkah 14: Buat widget _buildMasterPlans()
+![Screenshot](assets/images/P3_14.png)
+
+Langkah 15: Output
+![Screenshot](assets/images/P3_15.png)
+![Screenshot](assets/images/P3_15_02.png)
+
+Tugas Praktikum 3: State di Multiple Screens
+
+1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
+
+2. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
+
+Jawab: Gambar diagram tersebut menjelaskan alur state dan widget tree pada aplikasi Master Plan ketika berpindah dari screen pembuat plan ke screen detail plan, sekaligus menerapkan konsep Lift State Up dan InheritedWidget.
+
+3. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+
+Jawab: 
+- Menambah Plan
+    - User memasukkan nama plan melalui TextField
+    - Plan baru langsung muncul di ListView
+- Navigasi ke Detail Plan
+    - Tap plan → berpindah ke PlanScreen
+- Menambah Task
+    - FloatingActionButton menambah task baru
+- Edit Task
+    - TextFormField untuk deskripsi task
+- Checklist Task
+    - Checkbox menandai task selesai
+- Progress Otomatis
+    - Text di bawah (X out of Y tasks) update otomatis
+- State Sinkron
+    - Perubahan tetap tersimpan saat kembali ke screen sebelumnya
+
+4. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke dosen yang telah disepakati !
