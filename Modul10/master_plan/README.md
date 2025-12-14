@@ -4,9 +4,9 @@ Kelas   : TI 3D
 
 NIM     : 2341720002
 
-## master_plan
+# master_plan project
 
-# Praktikum 1: Dasar State dengan Model-View
+## Praktikum 1: Dasar State dengan Model-View
 
 Langkah 1: Buat Project Baru
 ![Screenshot](assets/images/P1_01.png)
@@ -52,7 +52,7 @@ Langkah 13: Terakhir, tambah method dispose()
 Langkah 14: Hasil
 ![Screenshot](assets/images/P1_14.png)
 
-Tugas Praktikum 1: Dasar State dengan Model-View
+## Tugas Praktikum 1: Dasar State dengan Model-View
 
 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki.
 
@@ -79,7 +79,7 @@ Jawab: Fungsi --> dipanggil satu kali saat widget pertama kali dibuat, untuk men
 
 6. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke dosen yang telah disepakati !
 
-Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier
+## Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier
 
 Langkah 1: Buat file plan_provider.dart
 ![Screenshot](assets/images/P2_01.png)
@@ -107,7 +107,7 @@ Langkah 9: Tambah widget SafeArea
 ![Screenshot](assets/images/P2_08,09.png)
 ![Screenshot](assets/images/P2_09_Run.png)
 
-Tugas Praktikum 2: InheritedWidget
+## Tugas Praktikum 2: InheritedWidget
 
 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
 
@@ -186,7 +186,7 @@ Hasilnya:
 
 5. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke dosen yang telah disepakati !
 
-Praktikum 3: Membuat State di Multiple Screens
+## Praktikum 3: Membuat State di Multiple Screens
 
 Langkah 1: Edit PlanProvider
 ![Screenshot](assets/images/P3_01.png)
@@ -235,7 +235,7 @@ Langkah 15: Output
 ![Screenshot](assets/images/P3_15.png)
 ![Screenshot](assets/images/P3_15_02.png)
 
-Tugas Praktikum 3: State di Multiple Screens
+## Tugas Praktikum 3: State di Multiple Screens
 
 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
 
