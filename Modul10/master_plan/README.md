@@ -70,6 +70,7 @@ Jawab: plan berfungsi sebagai state utama aplikasi, menyimpan --> Nama rencana d
 
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 ![Screenshot](assets/images/P1_09_Run.png)
+
 Jawab: Pada langkah ini dibuat tampilan setiap item task menggunakan ListTile yang berisi Checkbox untuk menandai task selesai atau belum dan TextFormField untuk mengubah deskripsi task secara langsung. Cara kerjanya: Data task diambil berdasarkan index --> saat checkbox atau teks berubah --> dibuat object Task baru --> list task disalin --> state diperbarui menggunakan setState.
 
 5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
@@ -168,6 +169,7 @@ Mengapa dilakukan demikian?
 
 Jawab: 
 ![Screenshot](assets/images/P2_09_Run.png)
+
 Pada Langkah 9:
 - Widget ListView dibungkus dengan Expanded
 - Seluruh konten ditempatkan dalam Column
